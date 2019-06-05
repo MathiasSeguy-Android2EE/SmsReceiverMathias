@@ -1,0 +1,20 @@
+06-17 10:19:10.995: E/MySmsService(19115): Constructor called
+06-17 10:19:10.995: E/MySmsService(19115): A new SMS has been received by the service
+06-17 10:19:10.995: E/AndroidRuntime(19115): FATAL EXCEPTION: main
+06-17 10:19:10.995: E/AndroidRuntime(19115): Process: com.android2ee.formation.sample.smsreceiverparismars32014, PID: 19115
+06-17 10:19:10.995: E/AndroidRuntime(19115): java.lang.RuntimeException: Unable to start service com.android2ee.formation.sample.smsreceiverparismars32014.MySmsService@425bb6b0 with null: java.lang.NullPointerException
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2705)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at android.app.ActivityThread.access$2100(ActivityThread.java:135)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1293)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at android.os.Looper.loop(Looper.java:136)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at java.lang.reflect.Method.invokeNative(Native Method)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at java.lang.reflect.Method.invoke(Method.java:515)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at dalvik.system.NativeStart.main(Native Method)
+06-17 10:19:10.995: E/AndroidRuntime(19115): Caused by: java.lang.NullPointerException
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at com.android2ee.formation.sample.smsreceiverparismars32014.MySmsService.onStartCommand(MySmsService.java:32)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2688)
+06-17 10:19:10.995: E/AndroidRuntime(19115): 	... 10 more
